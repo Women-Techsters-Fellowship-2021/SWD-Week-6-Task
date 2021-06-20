@@ -1,0 +1,61 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.register-page {
+  display: flex;
+  margin: auto;
+  max-width: 1000px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.yellow-box {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff017, #257244cc),
+    url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-868662526-612x612-1612546347.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=980:*)
+      no-repeat top center;
+  height: 500px;
+  width: 400px;
+  color: #fff;
+  border-radius: 10px;
+}
+.yellowbox-paragraph {
+  margin-top: 50px;
+}
+
+.white-box {
+  display: grid;
+  align-content: center;
+  height: 500px;
+  width: 500px;
+  color: #222;
+  border-radius: 10px;
+}
+.form-group {
+  margin: 10px;
+  display: grid;
+  grid-gap: 5px;
+}
+form input {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+.btn-form {
+  background-color: #3ded97;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.signup__link {
+  color: #3ded97;
+  margin-left: 10px;
+}
