@@ -1,0 +1,39 @@
+.add-form-section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add-form{
+    background-color: #545C7E;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input, textarea{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.add-btn{
+    padding: 10px;
+    background-color: #ABB2D9;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.add-btn:hover{
+    opacity: 0.8;
+}

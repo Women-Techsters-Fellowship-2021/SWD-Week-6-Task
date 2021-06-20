@@ -1,0 +1,64 @@
+ul{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note-div{
+    margin: 20px;
+    list-style-type: none;
+    background-color: #545C7E;
+    width: 250px;
+    padding: 20px;
+    text-align: justify;
+    cursor: pointer;
+    color: #fefefe;
+}
+
+.note-div h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.note-div p{
+    font-weight: 500;
+}
+
+.note{
+    height: 70vh;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.note-item{
+    background-color: #545C7E;
+    color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.note-item h2, .note-item p{
+    font-weight: 500;
+    text-align: center;
+}
+
+.note-item h2{
+    border-bottom: 3px solid #fefefe;
+    margin-bottom: 10px;
+}
+
+.note-btn{
+    font-size: 1.25em;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.delete-btn:hover, .edit-btn:hover{
+    color: #ABB2D9;
+}

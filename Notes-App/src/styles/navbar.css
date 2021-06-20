@@ -1,0 +1,26 @@
+.navbar{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    color: #fefefe;
+    margin-left: 50px;
+}
+
+.notes-link, .logout-link{
+    color: #fefefe;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.notes-link:hover, .logout-link:hover{
+    color: #ABB2D9;
+}
+
+.notes-link{
+    text-decoration: none;
+}
+
