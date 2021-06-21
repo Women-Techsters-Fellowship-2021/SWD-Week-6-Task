@@ -1,0 +1,19 @@
+.navbar {
+	background: purple;
+	color: white;
+	margin-bottom: 30px;
+	
+}
+
+.navlink {
+	display: inline-block;
+	padding: 10px 15px;
+	color: white;
+	cursor: pointer;
+
+	font-size: 30px;
+}
+
+.navlink:hover {
+	text-decoration: underline;
+}
