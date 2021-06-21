@@ -1,0 +1,109 @@
+:root {
+    --my-gray-color: #e3e3e3;
+    --my-orange-color: #da980c;
+  }
+
+  /*Styling my div elements*/
+
+  .div-style {
+    width: 100%;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /*  *{
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+  border-color: solid var(--my-green-color);
+    border:5px; 
+  }*/
+  
+  /*Styling the body*/
+  
+  body {
+    color: #0a0a0a;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+  
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica', cursive;
+    color: var(--my-orange-color);
+  }
+
+  
+/*Styling the form element*/
+  .div-style form {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 20px;
+    border: 2px solid var(--my-gray-color);
+    border-radius: 8px;
+  }
+  
+ 
+ textarea {
+  height: 140px;
+  margin-bottom: 10px;
+    width:100%;
+   padding: 10px 25px;
+    font-size: inherit;
+    font-family: inherit;
+    border: 2px solid var(--my-gray-color);
+    border-radius: 8px;
+      }
+
+      .btn {
+        background-color: rgb(175, 111, 15);
+        grid-column: span 2;
+        align-self: center;
+        justify-self: center;
+         padding: 10px 15px;
+        font-size: inherit;
+        font-family: inherit;
+        color: #e3e3e3;
+        border: 0; 
+        border-radius: 8px;
+
+      }
+
+.noteDiv{
+  margin: 10px;
+}
+          ul {
+        list-style-type: none;
+        padding: 0;
+        width: 400px;
+        margin: auto;
+      }
+      
+      li {
+        background-color: rgb(216, 179, 104);
+        padding: 0.25rem 1rem;
+         margin-bottom: 5px;
+      }
+      
+      li >.note{
+       
+        margin: 0;
+        
+      }
+      
+      li >.noteDate {
+        border-bottom: 1px solid rgb(95, 11, 11);
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: medium;
+
+      }      
+
+
