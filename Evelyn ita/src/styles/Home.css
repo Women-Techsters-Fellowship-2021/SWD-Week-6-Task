@@ -1,0 +1,21 @@
+.home-page {
+  display: grid;
+  max-width: 900px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+p {
+  color: beige;
+}
+
+.get-started {
+  background-color: #fff017;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 350px;
+}

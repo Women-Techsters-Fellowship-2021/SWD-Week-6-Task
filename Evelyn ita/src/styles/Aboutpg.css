@@ -1,0 +1,15 @@
+.about-header {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  color: #fff017;
+}
+.about-page {
+  background-color: #222;
+  max-width: 900px;
+  margin: auto;
+}
+.main-about-page {
+  margin: 20px;
+}

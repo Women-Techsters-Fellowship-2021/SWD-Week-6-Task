@@ -1,0 +1,28 @@
+.signin-form {
+  display: grid;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #fff;
+  background-color: #222;
+}
+form input {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border: 1px solid #fff017;
+  outline: none;
+}
+.Login-button {
+  background-color: #fff017;
+  color: #fff;
+  max-width: 100px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 50px;
+}
