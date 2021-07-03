@@ -6,24 +6,24 @@ import '../styles/main.css'
 const MyNoteApp = () => {
   //creating an array of notes list
   let notesListarray = [
-		{
-			id: nanoid(),
-			noteTitle: 'sermon',
-			noteBody: 'Giving',
-			date: "Sun Jun 9 2021"
-		},
-		{
-			id: nanoid(),
-			noteTitle: 'birthday party',
-			noteBody: ' invite the planner',
-			date: " Mon Jun 14 2021"
-		},
-		{
-			id: nanoid(),
-			noteTitle: 'shopping',
-			noteBody: 'going to the market',
-			date: "Sat Jun 18 2021"
-		}
+		// {
+		// 	id: nanoid(),
+		// 	noteTitle: 'sermon',
+		// 	noteBody: 'Giving',
+		// 	date: "Sun Jun 9 2021"
+		// },
+		// {
+		// 	id: nanoid(),
+		// 	noteTitle: 'birthday party',
+		// 	noteBody: ' invite the planner',
+		// 	date: " Mon Jun 14 2021"
+		// },
+		// {
+		// 	id: nanoid(),
+		// 	noteTitle: 'shopping',
+		// 	noteBody: 'going to the market',
+		// 	date: "Sat Jun 18 2021"
+		// }
 	];
 
 	//using a state to make our array of note dynamic

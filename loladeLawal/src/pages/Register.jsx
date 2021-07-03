@@ -35,8 +35,11 @@ function Register() {
 				if (result.error === true) {
 					return alert(result.message);
 				}
-
-				history.push('/my-note');
+                // setState(true)
+				// history.push('/my-note');
+                
+                alert('Your account has been created, you can now login');
+				history.push('/login');
 			})
 			.catch(err => {
 				console.log('this error occurred', err);
